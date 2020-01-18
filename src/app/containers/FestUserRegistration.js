@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { AddEvent } from '../components/festsreg/AddEvent';
 import { PersonalInfo } from '../components/festsreg/PersonalInfo';
 import { CollegeInfo } from '../components/festsreg/CollegeInfo';
-import { AddWorkShop } from '../components/festsreg/AddWorkShop';
+import { AddWorkShop } from '../components/festsreg/AddWorkshop';
 import { FestInfo } from '../components/festsreg/FestInfo';
 import { AddPaperPresent } from '../components/festsreg/AddPaperPresent';
 import { FestOthers } from '../components/festsreg/Others';
