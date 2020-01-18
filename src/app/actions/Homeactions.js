@@ -16,6 +16,7 @@ return dispatch =>{
 
 
 var datatopass=[];
+var test =[];
         for (var i = 0; i < Object.keys(res.data).length; i++) {
 
   				var clgdata = res.data[i];
