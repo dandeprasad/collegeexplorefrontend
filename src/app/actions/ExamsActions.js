@@ -15,8 +15,7 @@ export function examsSubmitReq (datatosend ){
       axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/ExamsStrings', datatosend )
         .then(res => {
 
-          console.log(res);
-          console.log(res.data);
+    
   const datatopass={};
           for (var i = 0; i < Object.keys(res.data).length; i++) {
 

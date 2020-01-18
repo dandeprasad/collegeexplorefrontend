@@ -15,8 +15,7 @@ export function CutoffsClgsReq (datatosend ){
       axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/CutoffsFirstString', datatosend )
         .then(res => {
 
-          console.log(res);
-          console.log(res.data);
+
   const datatopass={};
           for (var i = 0; i < Object.keys(res.data).length; i++) {
 
@@ -87,8 +86,7 @@ payload:res.data
         axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/CutoffStreams', datatosend )
           .then(res => {
 
-            console.log(res);
-            console.log(res.data);
+
     const datatopass={};
             for (var i = 0; i < Object.keys(res.data).length; i++) {
 
@@ -130,8 +128,7 @@ payload:res.data
           axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/CutoffStreams', datatosend )
             .then(res => {
 
-              console.log(res);
-              console.log(res.data);
+
       const datatopass={};
               for (var i = 0; i < Object.keys(res.data).length; i++) {
 
@@ -172,8 +169,7 @@ payload:res.data
             axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/CutoffStreams', datatosend )
               .then(res => {
 
-                console.log(res);
-                console.log(res.data);
+    
 
 
                        dispatch({

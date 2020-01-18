@@ -77,7 +77,7 @@ class FestCarousel3 extends Component {
   }
   componentWillMount() {
     this.serverRequestslides();
-console.log(this.props);
+
   }
 
   serverRequestslides (){

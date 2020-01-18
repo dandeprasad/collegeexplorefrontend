@@ -34,7 +34,7 @@ constructor(props) {
 }
 componentWillMount() {
 
-    console.log(this.props);
+  
 }
 
 

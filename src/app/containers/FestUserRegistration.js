@@ -641,7 +641,7 @@ HandleChangePosterLink = {({ target }) => {
 
 <button type="submit" onClick={this.handleFestSubmit.bind(this)}  className="btn btn-primary btn-raised">Submit Data</button>
                 </Card>
-{console.log(this.props.festRegisreduce.resultcode)}
+
           </Container>
         );
 }};

@@ -46,7 +46,7 @@ class FestCarousel4 extends Component {
   }
   componentWillMount() {
     this.serverRequestslides();
-console.log(this.props);
+
   }
 
   serverRequestslides (){

@@ -138,8 +138,7 @@ return dispatch =>{
     axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/HomeAllNotifications', datatosend )
       .then(res => {
 
-        console.log(res);
-        console.log(res.data);
+
 var datatopass=[];
         for (var i = 0; i < Object.keys(res.data).length; i++) {
 
