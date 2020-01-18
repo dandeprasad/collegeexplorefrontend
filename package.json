@@ -5,10 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback",
-    "build:prod": "webpack -p",
-    "build:dev": "webpack -d",
-    "dande": "webpack-dev-server -d",
     "postinstall": "webpack -p"
   },
   "homepage": "http://localhost:9544/ReactDev/dist/app/",
