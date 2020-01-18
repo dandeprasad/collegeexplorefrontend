@@ -10,7 +10,7 @@ import facebookicon from "../img/facebookIcon.png";
 import youtubeicon from "../img/youtube.png";
 
 import {Helmet} from "react-helmet";
-import {homeNewsActions,homeExamsActions,homeFestsActions } from "../actions/HomeActions";
+import {homeNewsActions,homeExamsActions,homeFestsActions } from "../actions/Homeactions";
 import {
   BrowserRouter as Router,
   Link,

@@ -9,7 +9,7 @@ import {
 import '../css/events.scss';
 import { connect } from "react-redux";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {homeSlidesActions } from "../actions/HomeActions";
+import {homeSlidesActions } from "../actions/Homeactions";
 
 var items = [
   {

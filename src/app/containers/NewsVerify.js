@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 import {setName} from "../actions/userActions";
 import HomeCarousel from '../components/HomeCarousel';
 import {paramsToHeader} from "../actions/HeaderParams";
-import {SubmitReqUploadedNews,setfiltertype,handleuploadSubmitdata,setresult1,setNewsNow} from "../actions/HomeActions";
+import {SubmitReqUploadedNews,setfiltertype,handleuploadSubmitdata,setresult1,setNewsNow} from "../actions/Homeactions";
 import {
   BrowserRouter as Router,
   Link,
