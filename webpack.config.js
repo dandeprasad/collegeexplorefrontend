@@ -12,7 +12,7 @@ var MiniCssExtractPlugin = require("mini-css-extract-plugin");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
  var CleanWebpackPlugin = require("clean-webpack-plugin");
 
-var DIST_DIR = path.resolve(__dirname, "dist");
+var DIST_DIR = path.resolve(__dirname, "");
 var SRC_DIR = path.resolve(__dirname, "src");
 
 var config = {
@@ -85,7 +85,7 @@ inline: true,
 		         new HtmlWebpackPlugin({
 		        	 template : 'src/index.html'
 		         }),
-		         new CleanWebpackPlugin(['dist'])
+		         new CleanWebpackPlugin([''])
 		          ]
 };
 
