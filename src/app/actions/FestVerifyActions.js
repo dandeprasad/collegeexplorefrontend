@@ -11,7 +11,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/UploadData', datatosend )
+    axios.post('https://collegeexplore.in/UploadData', datatosend )
       .then(res => {
 
 
@@ -72,7 +72,7 @@ return dispatch =>{
         }
       }
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/UploadData', datatosend ,config)
+    axios.post('https://collegeexplore.in/UploadData', datatosend ,config)
       .then(res => {
 
 

@@ -11,7 +11,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/NewsStrings', datatosend )
+    axios.post('https://collegeexplore.in/NewsStrings', datatosend )
       .then(res => {
 
 const datatopass={};
@@ -94,7 +94,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/NewsStrings', datatosend )
+    axios.post('https://collegeexplore.in/NewsStrings', datatosend )
       .then(res => {
 
 const datatopass={};
@@ -135,7 +135,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/HomeAllNotifications', datatosend )
+    axios.post('https://collegeexplore.in/HomeAllNotifications', datatosend )
       .then(res => {
 
 

@@ -59,7 +59,7 @@ return dispatch =>{
         var formData = new FormData();
 
         formData.append('image', datatosend.NewsUploadReducer.newsimage);
-        axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/NewsImageUpload', formData, {
+        axios.post('https://collegeexplore.in/NewsImageUpload', formData, {
             headers: {
               'Content-Type': 'multipart/form-data'
             }
@@ -89,7 +89,7 @@ var dataparse = datatosend
 
 
 
-          axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/UploadData', dande)
+          axios.post('https://collegeexplore.in/UploadData', dande)
               .then(res => {
 
 

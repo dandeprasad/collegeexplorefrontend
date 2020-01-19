@@ -33,7 +33,7 @@ for (var i = 0; i < arrayLength1; i++) {
         if(datatosend.FEST_LOGO_IMG!=undefined)
         formData.append('FEST_LOGO_IMG', datatosend.FEST_LOGO_IMG);
       //  formData.append('WORKSHOP_BANNER', datatosend.workshops);
-        axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/FestsImageUpload', formData, {
+        axios.post('https://collegeexplore.in/FestsImageUpload', formData, {
             headers: {
               'Content-Type': 'multipart/form-data'
             }
@@ -59,7 +59,7 @@ const config = {
   }
 }
   var dande = 'ServerData=' + encodeURIComponent(JSON.stringify(datatosend));
-          axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/FestsRegistrationWeb', dande ,config)
+          axios.post('https://collegeexplore.in/FestsRegistrationWeb', dande ,config)
 
               .then(res => {
 
@@ -79,7 +79,7 @@ const config = {
 /* backup  var formData = new FormData();
 
   formData.append('image', datatosend.workshops[0].selectedFile);
-  axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/ImageUploadWeb', formData, {
+  axios.post('https://collegeexplore.in/ImageUploadWeb', formData, {
       headers: {
         'Content-Type': 'multipart/form-data'
       }

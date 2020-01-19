@@ -12,7 +12,7 @@ export function CutoffsClgsReq (datatosend ){
           // });
 
 
-      axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/CutoffsFirstString', datatosend )
+      axios.post('https://collegeexplore.in/CutoffsFirstString', datatosend )
         .then(res => {
 
 
@@ -46,7 +46,7 @@ export function CutoffsClgsReq (datatosend ){
 export function apInstOthersRequest (datatosend ){
 
 return dispatch =>{
-axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/CutoffStreams', datatosend )
+axios.post('https://collegeexplore.in/CutoffStreams', datatosend )
       .then(res => {
 dispatch({
 type:"CUTOFFS_AP_INST_OTHERS_RESULT",
@@ -55,7 +55,7 @@ payload:res.data
 export function apInstNameRequest (datatosend ){
 
 return dispatch =>{
-axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/CutoffStreams', datatosend )
+axios.post('https://collegeexplore.in/CutoffStreams', datatosend )
       .then(res => {
 dispatch({
 type:"CUTOFFS_AP_INSTNAME_RESULT",
@@ -65,7 +65,7 @@ payload:res.data
     export function apInstCodeRequest (datatosend ){
 
     return dispatch =>{
-  axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/CutoffStreams', datatosend )
+  axios.post('https://collegeexplore.in/CutoffStreams', datatosend )
           .then(res => {
  dispatch({
    type:"CUTOFFS_AP_INSTCODE_RESULT",
@@ -83,7 +83,7 @@ payload:res.data
             // });
 
 
-        axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/CutoffStreams', datatosend )
+        axios.post('https://collegeexplore.in/CutoffStreams', datatosend )
           .then(res => {
 
 
@@ -125,7 +125,7 @@ payload:res.data
               // });
 
 
-          axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/CutoffStreams', datatosend )
+          axios.post('https://collegeexplore.in/CutoffStreams', datatosend )
             .then(res => {
 
 
@@ -166,10 +166,10 @@ payload:res.data
                 // });
 
 
-            axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/CutoffStreams', datatosend )
+            axios.post('https://collegeexplore.in/CutoffStreams', datatosend )
               .then(res => {
 
-    
+
 
 
                        dispatch({

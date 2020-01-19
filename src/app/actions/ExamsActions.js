@@ -12,7 +12,7 @@ export function examsSubmitReq (datatosend ){
           // });
 
 
-      axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/ExamsStrings', datatosend )
+      axios.post('https://collegeexplore.in/ExamsStrings', datatosend )
         .then(res => {
 
     

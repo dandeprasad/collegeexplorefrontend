@@ -14,7 +14,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/svpcetUploadData', datatosend )
+    axios.post('https://collegeexplore.in/svpcetUploadData', datatosend )
       .then(res => {
 
 
@@ -45,7 +45,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/svpcetUploadData', datatosend )
+    axios.post('https://collegeexplore.in/svpcetUploadData', datatosend )
       .then(res => {
 
 

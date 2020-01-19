@@ -11,7 +11,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/ExamsStrings', datatosend )
+    axios.post('https://collegeexplore.in/ExamsStrings', datatosend )
       .then(res => {
 
 
@@ -53,7 +53,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/ExamsStrings', datatosend )
+    axios.post('https://collegeexplore.in/ExamsStrings', datatosend )
       .then(res => {
 
 
@@ -94,7 +94,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/ExamsStrings', datatosend )
+    axios.post('https://collegeexplore.in/ExamsStrings', datatosend )
       .then(res => {
 
 
@@ -135,7 +135,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/ExamsStrings', datatosend )
+    axios.post('https://collegeexplore.in/ExamsStrings', datatosend )
       .then(res => {
 
 

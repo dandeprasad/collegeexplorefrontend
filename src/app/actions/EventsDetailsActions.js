@@ -11,7 +11,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/Festsdata', datatosend )
+    axios.post('https://collegeexplore.in/Festsdata', datatosend )
       .then(res => {
 
 
@@ -52,7 +52,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/Festsdata', datatosend )
+    axios.post('https://collegeexplore.in/Festsdata', datatosend )
       .then(res => {
 
 
@@ -94,7 +94,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/Festsdata', datatosend )
+    axios.post('https://collegeexplore.in/Festsdata', datatosend )
       .then(res => {
 
 
@@ -134,7 +134,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://dandereddyprasad.us-east-2.elasticbeanstalk.com/Festsdata', datatosend )
+    axios.post('https://collegeexplore.in/Festsdata', datatosend )
       .then(res => {
 
 
