@@ -59,7 +59,7 @@ return dispatch =>{
         var formData = new FormData();
 
         formData.append('image', datatosend.NewsUploadReducer.newsimage);
-        axios.post('https://collegeexplore.in/NewsImageUpload', formData, {
+        axios.post('https://gnyann.com/NewsImageUpload', formData, {
             headers: {
               'Content-Type': 'multipart/form-data'
             }
@@ -89,7 +89,7 @@ var dataparse = datatosend
 
 
 
-          axios.post('https://collegeexplore.in/UploadData', dande)
+          axios.post('https://gnyann.com/UploadData', dande)
               .then(res => {
 
 

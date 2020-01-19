@@ -33,7 +33,7 @@ for (var i = 0; i < arrayLength1; i++) {
         if(datatosend.FEST_LOGO_IMG!=undefined)
         formData.append('FEST_LOGO_IMG', datatosend.FEST_LOGO_IMG);
       //  formData.append('WORKSHOP_BANNER', datatosend.workshops);
-        axios.post('https://collegeexplore.in/FestsImageUpload', formData, {
+        axios.post('https://gnyann.com/FestsImageUpload', formData, {
             headers: {
               'Content-Type': 'multipart/form-data'
             }
@@ -59,7 +59,7 @@ const config = {
   }
 }
   var dande = 'ServerData=' + encodeURIComponent(JSON.stringify(datatosend));
-          axios.post('https://collegeexplore.in/FestsRegistrationWeb', dande ,config)
+          axios.post('https://gnyann.com/FestsRegistrationWeb', dande ,config)
 
               .then(res => {
 
@@ -79,7 +79,7 @@ const config = {
 /* backup  var formData = new FormData();
 
   formData.append('image', datatosend.workshops[0].selectedFile);
-  axios.post('https://collegeexplore.in/ImageUploadWeb', formData, {
+  axios.post('https://gnyann.com/ImageUploadWeb', formData, {
       headers: {
         'Content-Type': 'multipart/form-data'
       }

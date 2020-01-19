@@ -12,7 +12,7 @@ export function ReqClgsPlacements (datatosend ){
           // });
 
 
-      axios.post('https://collegeexplore.in/PlacementsStrings', datatosend )
+      axios.post('https://gnyann.com/PlacementsStrings', datatosend )
         .then(res => {
 
 

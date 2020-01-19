@@ -12,7 +12,7 @@ export function examsSubmitReq (datatosend ){
           // });
 
 
-      axios.post('https://collegeexplore.in/ExamsStrings', datatosend )
+      axios.post('https://gnyann.com/ExamsStrings', datatosend )
         .then(res => {
 
     

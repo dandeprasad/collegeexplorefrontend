@@ -11,7 +11,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/Festsdata', datatosend )
+    axios.post('https://gnyann.com/Festsdata', datatosend )
       .then(res => {
 
 
@@ -52,7 +52,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/Festsdata', datatosend )
+    axios.post('https://gnyann.com/Festsdata', datatosend )
       .then(res => {
 
 
@@ -94,7 +94,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/Festsdata', datatosend )
+    axios.post('https://gnyann.com/Festsdata', datatosend )
       .then(res => {
 
 
@@ -134,7 +134,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/Festsdata', datatosend )
+    axios.post('https://gnyann.com/Festsdata', datatosend )
       .then(res => {
 
 

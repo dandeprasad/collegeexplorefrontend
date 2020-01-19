@@ -14,7 +14,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/svpcetUploadData', datatosend )
+    axios.post('https://gnyann.com/svpcetUploadData', datatosend )
       .then(res => {
 
 
@@ -45,7 +45,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/svpcetUploadData', datatosend )
+    axios.post('https://gnyann.com/svpcetUploadData', datatosend )
       .then(res => {
 
 

@@ -11,7 +11,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/NewsStrings', datatosend )
+    axios.post('https://gnyann.com/NewsStrings', datatosend )
       .then(res => {
 
 const datatopass={};
@@ -51,7 +51,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/NewsStrings', datatosend )
+    axios.post('https://gnyann.com/NewsStrings', datatosend )
       .then(res => {
 
 const datatopass={};
@@ -94,7 +94,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/NewsStrings', datatosend )
+    axios.post('https://gnyann.com/NewsStrings', datatosend )
       .then(res => {
 
 const datatopass={};
@@ -135,7 +135,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/HomeAllNotifications', datatosend )
+    axios.post('https://gnyann.com/HomeAllNotifications', datatosend )
       .then(res => {
 
 

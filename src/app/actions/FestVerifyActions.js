@@ -11,7 +11,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/UploadData', datatosend )
+    axios.post('https://gnyann.com/UploadData', datatosend )
       .then(res => {
 
 
@@ -72,7 +72,7 @@ return dispatch =>{
         }
       }
 
-    axios.post('https://collegeexplore.in/UploadData', datatosend ,config)
+    axios.post('https://gnyann.com/UploadData', datatosend ,config)
       .then(res => {
 
 

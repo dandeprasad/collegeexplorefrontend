@@ -11,7 +11,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/HomeAllNotifications', datatosend )
+    axios.post('https://gnyann.com/HomeAllNotifications', datatosend )
       .then(res => {
 
 
@@ -55,7 +55,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/HomeAllNotifications', datatosend )
+    axios.post('https://gnyann.com/HomeAllNotifications', datatosend )
       .then(res => {
 
 
@@ -99,7 +99,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/UploadData', datatosend )
+    axios.post('https://gnyann.com/UploadData', datatosend )
       .then(res => {
 
 
@@ -140,7 +140,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/HomeAllNotifications', datatosend )
+    axios.post('https://gnyann.com/HomeAllNotifications', datatosend )
       .then(res => {
 
 
@@ -182,7 +182,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/HomeAllNotifications', datatosend )
+    axios.post('https://gnyann.com/HomeAllNotifications', datatosend )
       .then(res => {
 
 
@@ -224,7 +224,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('https://collegeexplore.in/UploadData', datatosend )
+    axios.post('https://gnyann.com/UploadData', datatosend )
       .then(res => {
 
 
