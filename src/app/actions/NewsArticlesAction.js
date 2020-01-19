@@ -51,7 +51,7 @@ return dispatch =>{
         // });
 
 
-    axios.post('http://localhost:9544/NewsStrings', datatosend )
+    axios.post('https://collegeexplore.in/NewsStrings', datatosend )
       .then(res => {
 
 const datatopass={};
