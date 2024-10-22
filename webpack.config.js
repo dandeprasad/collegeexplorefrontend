@@ -80,7 +80,9 @@ inline: true,
 			]
 
         },
+	
         		plugins: [
+				
 		          extractPlugin,
 		         new HtmlWebpackPlugin({
 		        	 template : 'src/index.html'
